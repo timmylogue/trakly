@@ -1,4 +1,4 @@
-# 🚀 Budgetly - Installation Guide
+# 🚀 Trakly - Installation Guide
 
 ## Prerequisites
 
@@ -12,8 +12,8 @@
 ### 1. Clone or Download the Project
 
 ```bash
-git clone https://github.com/yourusername/budgetly.git
-cd budgetly
+git clone https://github.com/timmylogue/trakly.git
+cd trakly
 ```
 
 ### 2. Configure Database
@@ -21,13 +21,13 @@ cd budgetly
 1. Create a new MySQL database:
 
 ```sql
-CREATE DATABASE budgetly CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE trakly CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
 2. Import the database schema:
 
 ```bash
-mysql -u root -p budgetly < sql/schema.sql
+mysql -u root -p trakly < sql/schema.sql
 ```
 
 Or import via phpMyAdmin by importing the `sql/schema.sql` file.
@@ -38,7 +38,7 @@ Edit `/config/config.php` and update your database credentials:
 
 ```php
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'budgetly');
+define('DB_NAME', 'trakly');
 define('DB_USER', 'your_username');
 define('DB_PASS', 'your_password');
 ```
@@ -46,7 +46,7 @@ define('DB_PASS', 'your_password');
 Also update the `BASE_URL`:
 
 ```php
-define('BASE_URL', 'http://localhost/budgetly/public/');
+define('BASE_URL', 'http://localhost/trakly/public/');
 ```
 
 ### 4. Set Permissions
@@ -91,7 +91,7 @@ http://localhost/budgetly/public/
 Or if using a virtual host:
 
 ```
-http://budgetly.local
+http://trakly.local
 ```
 
 ### 7. Create Your First Account

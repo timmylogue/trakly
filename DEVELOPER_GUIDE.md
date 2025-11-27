@@ -1,4 +1,4 @@
-# 🎯 Budgetly - Complete Development Guide
+# 🎯 Trakly - Complete Development Guide
 
 ## 📊 Project Statistics
 

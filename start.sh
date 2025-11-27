@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Budgetly Quick Start Script
+# Trakly Quick Start Script
 
-echo "🚀 Starting Budgetly Development Server..."
+echo "🚀 Starting Trakly Development Server..."
 echo ""
 
 # Check if PHP is installed

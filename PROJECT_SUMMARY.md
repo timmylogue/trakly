@@ -1,8 +1,8 @@
-# 📊 Budgetly - Project Summary
+# 📊 Trakly - Project Summary
 
 ## ✅ What Has Been Built
 
-I've successfully built a complete **Budgetly** application based on the specifications in your README. Here's what's included:
+I've successfully built a complete **Trakly** application based on the specifications in your README. Here's what's included:
 
 ### 🏗️ Project Structure
 
@@ -154,13 +154,13 @@ cd /Users/timothylogue/Desktop/Trakly
 1. Create database:
 
    ```sql
-   CREATE DATABASE budgetly CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+   CREATE DATABASE trakly CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
    ```
 
 2. Import schema:
 
    ```bash
-   mysql -u root -p budgetly < sql/schema.sql
+   mysql -u root -p trakly < sql/schema.sql
    ```
 
 3. Configure database in `config/config.php`
@@ -213,7 +213,7 @@ Edit `config/config.php`:
 
 ```php
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'budgetly');
+define('DB_NAME', 'trakly');
 define('DB_USER', 'root');
 define('DB_PASS', ''); // Change this!
 ```
@@ -288,13 +288,13 @@ Edit `public/css/style.css` - CSS variables at the top for easy theming.
 ### Backup
 
 ```bash
-mysqldump -u root -p budgetly > backup.sql
+mysqldump -u root -p trakly > backup.sql
 ```
 
 ### Restore
 
 ```bash
-mysql -u root -p budgetly < backup.sql
+mysql -u root -p trakly < backup.sql
 ```
 
 ## 🐛 Troubleshooting
@@ -322,4 +322,4 @@ MIT License - Free for personal and commercial use
 
 ## 🎉 Success!
 
-Your Budgetly application is now ready to use! The foundation is solid and ready for both immediate use and future enhancements.
+Your Trakly application is now ready to use! The foundation is solid and ready for both immediate use and future enhancements.

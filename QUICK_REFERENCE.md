@@ -1,4 +1,4 @@
-# ⚡ Budgetly Quick Reference Card
+# ⚡ Trakly Quick Reference Card
 
 ## 🚀 Quick Start Commands
 
@@ -10,7 +10,7 @@
 cd public && php -S localhost:8000
 
 # Create database
-mysql -u root -p -e "CREATE DATABASE budgetly"
+mysql -u root -p -e "CREATE DATABASE trakly"
 
 # Import schema
 mysql -u root -p budgetly < sql/schema.sql
@@ -243,8 +243,8 @@ Test at these breakpoints:
 
 ```bash
 # Reset database
-mysql -u root -p -e "DROP DATABASE budgetly; CREATE DATABASE budgetly"
-mysql -u root -p budgetly < sql/schema.sql
+mysql -u root -p -e "DROP DATABASE trakly; CREATE DATABASE trakly"
+mysql -u root -p trakly < sql/schema.sql
 
 # Clear uploads
 rm -rf public/uploads/*
